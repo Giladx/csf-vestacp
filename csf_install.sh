@@ -27,6 +27,12 @@ function InstallCSF()
 # Let's install the Vesta / CSF script
 function InstallVestaCPBashScript()
 {
+	echo "Install VestaCP Script..."
+
+	cd /tmp
+	wget -O /usr/local/vesta/bin/v-csf http://vestacp.ss88.uk/Install_CSF_on_VestaCP/v-csf.txt
+	chmod 770 /usr/local/vesta/bin/v-csf
+}
 
 # Let's install the CSF Vesta UI!
 function InstallVestaCPFrontEnd()
