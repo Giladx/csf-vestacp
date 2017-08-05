@@ -43,6 +43,6 @@ function InstallVestaCPFrontEnd()
 	wget -O /usr/local/vesta/web/templates/admin/panel.html http://vestacp.ss88.uk/Install_CSF_on_VestaCP/panel.html
 }
 
-InstallCSF
-InstallVestaCPBashScript
-InstallVestaCPFrontEnd
+echo InstallCSF
+echo InstallVestaCPBashScript
+echo InstallVestaCPFrontEnd
